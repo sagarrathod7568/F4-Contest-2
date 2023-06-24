@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1{
+  margin: 0px 0px 20px;
+}
+
+.Login{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Login input{
+  font-size: 1.2em;
+  height: 30px;
+  width: 300px;
+}
+.errorMessage{
+  color: red;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.ProfilePage{
+  font-size: 1.2em;
+}
+
+td:first-child{
+  background-color: black;
+  color: white;
+}
+td:last-child{
+  background-color: #e2dede;
+  color: black;
+}
+.sign-out{
+  background-color: black;
+  margin-top: 1rem;
+  margin-left:65rem
+}
+h2{
+  font-size: 2rem;
+  color: #e2dede;
+}
